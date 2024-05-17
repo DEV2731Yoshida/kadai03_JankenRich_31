@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+
+main{
+    border-bottom:1px solid #ccc;
+}
+
+
+.container{
+    height: 600px;
+	background-image: url(../img/Ken_vs_Ryu.gif);
+	background-size: 70% auto;
+	background-position: center;
+    background-repeat: no-repeat;
+	margin: auto;
+	padding: 0%;   
+}
+
+
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+
+
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+
+
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+
+
+li{
+    list-style-type:none;
+    border: 1px solid #f96520;
+    background-color: yellow;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+
+
+#gu_btn:hover{
+    background: #50c9fc;
+    color:#fff;
+}
+#cho_btn:hover{
+    background: #fe550d;
+    color:#fff;
+}
+#par_btn:hover{
+    background: #affcc3;
+    color:#fff;
+}
